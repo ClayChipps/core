@@ -1,7 +1,6 @@
 *-debug.log
 *-error.log
 /.nyc_output
-/.vscode
 /coverage
 /coverage.lcov
 /lib
@@ -12,3 +11,10 @@
 .idea
 /test/**/node_modules
 /test/**/yarn.lock
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
